@@ -1,4 +1,6 @@
 /**
+ * 9.14.25 - testing synch up with github repo
+ * 9.14.25 - added funtion to ensure one and only one START_HERE is tagged after running SORT and REPORT.
  * 8.25.25 - added logic for both URL as well as Article Title (cols B and C) dupe checking
  *
  * UPDATED 6.4.25  - changed dupe search for only article title - not URL dupes, also added abort if google doc not created
