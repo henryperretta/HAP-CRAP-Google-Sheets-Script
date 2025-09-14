@@ -333,4 +333,7 @@ function sortAndReport() {
   if (firstReadyToScrapeRow > 3) { // Make sure we're not trying to go above row 3
     sheet.getRange(firstReadyToScrapeRow - 1, 14).setValue("Start_Here");
   }
+
+  // Update cell L2 with the count of "Ready to Scrape" rows
+  sheet.getRange(2, 12).setValue(readyToScrapeCount);
 }
